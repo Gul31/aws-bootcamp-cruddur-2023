@@ -145,4 +145,4 @@ aws budgets create-budget \
 
 I prepared a logical diagram of the application architecture. The diagram contains major AWS services required for the fucntioning of the app.
 I used arrows to depict data flow across several AWS services. The diagram is as follows:
-![alt text](https://lucid.app/lucidchart/6cbd1211-26bb-4938-abc0-a44d63e5828e/edit?viewport_loc=-11%2C77%2C2219%2C989%2C0_0&invitationId=inv_a922fa1a-e4e9-4acd-8418-f0674645f994)
+![alt text](https://github.com/Gul31/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/Cruddur-Logical%20Diagram.png)
