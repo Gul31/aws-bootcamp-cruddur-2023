@@ -162,6 +162,10 @@ The diagram has the following services:
 - **AppSync:** it allows your applications to access exactly the data they need via API. it is used to create and manage APIs.
 - **Momento:** it is used to serverless caching service.
 
+## Conceptual Diagram on Napkin #Bonuspoints
+
+![alt text](https://github.com/Gul31/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/napkin%20diagram.jpg)
+
 
 ## Security Considerations
 
