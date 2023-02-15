@@ -146,3 +146,18 @@ aws budgets create-budget \
 I prepared a logical diagram of the application architecture. The diagram contains major AWS services required for the fucntioning of the app.
 I used arrows to depict data flow across several AWS services. The diagram is as follows:
 ![alt text](https://github.com/Gul31/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/Cruddur-Logical%20Diagram.png)
+
+The diagram has the following services:
+- **Client:** any user can access the application over internet
+- **Authentication:** Authentication of the user will be done prior accessing the app.
+- **Route 53:** DNS service from AWS. 
+- **Application Load Balancer:** This load balancer is used to maintain traffic flow to avoid congestion or crashing.
+- **Virtual Private Network:** VPC provides private network capabilities to the cloud env.
+- **ECS EC2 Container:** it provides containerization env for our application
+- **Frontend:** it depicts the frontend portion of our app.
+- **Backend:** it depicts the backend portion of our app.
+- **REST API:** it is used for API calls for communication between Frontend and Backend.
+- **AWS DynamoDB:** it is non-relational database to store app data.
+- **AWS RDS:** it is relational database to store app data.
+- **AppSync:** it allows your applications to access exactly the data they need via API. it is used to create and manage APIs.
+- 
