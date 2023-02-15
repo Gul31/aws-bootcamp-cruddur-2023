@@ -161,4 +161,12 @@ The diagram has the following services:
 - **AWS RDS:** it is relational database to store app data.
 - **AppSync:** it allows your applications to access exactly the data they need via API. it is used to create and manage APIs.
 - **Momento:** it is used to serverless caching service.
-- 
+
+##Security Considerations
+
+Here are some security considerations for the week0:
+- Enabled MFA for IAM user and root account.
+- Stopped using root account for regular activtites.
+- Created Organizational Units for easier management of multiple AWS accounts.
+- Following `Least priviledge principles`.
+- Enabling `CloudTrail` to log management events for AWS account. We can also use it at OU level to log multiple AWS accounts.
