@@ -160,4 +160,5 @@ The diagram has the following services:
 - **AWS DynamoDB:** it is non-relational database to store app data.
 - **AWS RDS:** it is relational database to store app data.
 - **AppSync:** it allows your applications to access exactly the data they need via API. it is used to create and manage APIs.
+- **Momento:** it is used to serverless caching service.
 - 
