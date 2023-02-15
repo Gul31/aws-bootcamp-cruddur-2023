@@ -166,8 +166,8 @@ The diagram has the following services:
 ## Security Considerations
 
 Here are some security considerations for the week0:
-- Enabled MFA for IAM user and root account.
+- `Enabled MFA` for IAM user and root account.
 - Stopped using root account for regular activtites.
-- Created Organizational Units for easier management of multiple AWS accounts.
+- Created an `Organizational Unit` for easier management of multiple AWS accounts.
 - Following `Least priviledge principles`.
 - Enabling `CloudTrail` to log management events for AWS account. We can also use it at OU level to log multiple AWS accounts.
