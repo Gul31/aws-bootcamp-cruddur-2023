@@ -50,14 +50,14 @@ We will set these credentials for the current bash terminal
 ```
 export AWS_ACCESS_KEY_ID=""
 export AWS_SECRET_ACCESS_KEY=""
-export AWS_DEFAULT_REGION=us-east-1
+export AWS_DEFAULT_REGION=ca-central-1
 ```
 
 `gp env` is used to make all settings reboot persistent, it means if we reboot the gitpod it will recall user's access keys to easy terminal access.
 ```
 gp env AWS_ACCESS_KEY_ID=""
 gp env AWS_SECRET_ACCESS_KEY=""
-gp env AWS_DEFAULT_REGION=us-east-1
+gp env AWS_DEFAULT_REGION=ca-central-1
 ```
 
 ### Check that the AWS CLI is working and you are the expected user
@@ -139,3 +139,10 @@ aws budgets create-budget \
     --account-id AccountID \
     --budget file://aws/json/budget.json \
     --notifications-with-subscribers file://aws/json/budget-notifications-with-subscribers.json
+```
+
+## Logical architecture 
+
+I prepared a logical diagram of the application architecture. The diagram contains major AWS services required for the fucntioning of the app.
+I used arrows to depict data flow across several AWS services. The diagram is as follows:
+![alt text](https://lucid.app/lucidchart/6cbd1211-26bb-4938-abc0-a44d63e5828e/edit?viewport_loc=-11%2C77%2C2219%2C989%2C0_0&invitationId=inv_a922fa1a-e4e9-4acd-8418-f0674645f994)
