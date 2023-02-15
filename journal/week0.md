@@ -163,8 +163,7 @@ The diagram has the following services:
 - **Momento:** it is used to serverless caching service.
 
 
-##Security Considerations
-
+#Security Considerations
 
 Here are some security considerations for the week0:
 - Enabled MFA for IAM user and root account.
