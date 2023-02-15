@@ -75,6 +75,11 @@ You should see something like this:
 }
 ```
 
+### Get your Domain
+
+We need to have a domain name as part of this project. I purchased my domain name service from AWS Route 53 for easier service integeration. 
+The Domain name I purchased is `cloudsecur80.com`.
+
 ## Enable Billing 
 
 Steps to turn on Billing Alerts to recieve alerts...
