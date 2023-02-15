@@ -167,6 +167,8 @@ The diagram has the following services:
 - **AppSync:** it allows your applications to access exactly the data they need via API. it is used to create and manage APIs.
 - **Momento:** it is used to serverless caching service.
 
+[View my logical architecture: Lucidchart](https://lucid.app/lucidchart/6cbd1211-26bb-4938-abc0-a44d63e5828e/edit?viewport_loc=-11%2C40%2C2219%2C989%2C0_0&invitationId=inv_a922fa1a-e4e9-4acd-8418-f0674645f994)
+
 ## Conceptual Diagram on Napkin #Bonuspoints
 
 ![alt text](https://github.com/Gul31/aws-bootcamp-cruddur-2023/blob/main/_docs/assets/napkin%20diagram.jpg)
