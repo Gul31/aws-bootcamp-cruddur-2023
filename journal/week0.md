@@ -162,7 +162,9 @@ The diagram has the following services:
 - **AppSync:** it allows your applications to access exactly the data they need via API. it is used to create and manage APIs.
 - **Momento:** it is used to serverless caching service.
 
+
 ##Security Considerations
+
 
 Here are some security considerations for the week0:
 - Enabled MFA for IAM user and root account.
